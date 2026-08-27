@@ -1,10 +1,10 @@
-# 📊 Marketing A/B Testing & User Conversion Analytics
+# Marketing A/B Testing & User Conversion Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Tableau](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-E97627)](YOUR_TABLEAU_PUBLIC_LINK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📌 Executive Summary
+## Executive Summary
 This project delivers an end-to-end statistical analysis of an A/B testing campaign comprising **582,149 user interaction records**. The primary objective is evaluating whether targeted digital ad campaigns generate a statistically significant lift in user conversion rates compared to a Public Service Announcement (PSA) control group, while determining optimal ad frequency caps and peak temporal engagement windows.
 
 - **Interactive Tableau Dashboard:** [View Live Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
@@ -12,14 +12,14 @@ This project delivers an end-to-end statistical analysis of an A/B testing campa
 
 ---
 
-## 🎯 Business Problem & Objectives
+## Business Problem & Objectives
 * **Core Hypothesis:** Exposure to targeted marketing ads increases user conversion rate significantly over baseline exposure (PSA).
 * **Ad Fatigue Threshold:** Identify the frequency of ad exposures beyond which conversion yield diminishes or plateaus.
 * **Resource Optimization:** Pinpoint peak days and hours of user engagement to optimize programmatic ad spend allocation.
 
 ---
 
-## 📊 Dataset Architecture & Feature Engineering
+## Dataset Architecture & Feature Engineering
 
 ### Dataset Overview
 * **Total Sample Size:** 582,149 unique user records
@@ -39,7 +39,7 @@ This project delivers an end-to-end statistical analysis of an A/B testing campa
 
 ---
 
-## 🔬 Statistical Hypothesis Testing & Methodology
+## Statistical Hypothesis Testing & Methodology
 
 ### 1. Two-Sample Z-Test for Proportions
 To determine if the observed lift in conversion rate is statistically significant:
@@ -63,7 +63,7 @@ Evaluated the association between ad exposure intensity (`ad_freq_bucket`) and c
 
 ---
 
-## 💡 Key Insights & Data Discoveries
+## Key Insights & Data Discoveries
 
 * **Ad Campaign Effectiveness:** Exposure to ads yielded a **42.5% relative increase** in conversions over the control group ($p < 0.0001$).
 * **Ad Fatigue & Diminishing Returns:**
@@ -75,7 +75,7 @@ Evaluated the association between ad exposure intensity (`ad_freq_bucket`) and c
 
 ---
 
-## 📈 Interactive Tableau Dashboard
+## Interactive Tableau Dashboard
 
 The interactive Tableau dashboard provides dynamic exploration of campaign metrics across demographics, temporal windows, and exposure buckets.
 
@@ -88,12 +88,9 @@ The interactive Tableau dashboard provides dynamic exploration of campaign metri
 
 ---
 
-## 🚀 Strategic Business Recommendations
+## Strategic Business Recommendations
 
-* **Implement Ad Impression Caps:** Cap frequency at **12–15 impressions per user**. Reallocate budget wasted on over-exposed users (>30 impressions) toward net-new customer acquisition.
+* **Capitalize on Mid-Week Incremental Lift Peaks:** While Monday yields the highest raw ad conversion rate (**3.15% CVR**), Tuesday and Wednesday deliver the highest **incremental lift** over the PSA baseline (**\+60.66% on Tuesday** and **\+56.02% on Monday/Wednesday**). Structure dynamic bid rules to prioritize impression share aggressively on Tuesday and Wednesday, where paid ads generate the maximum organic push over baseline behavior.
 * **Optimize Programmatic Bidding Schedules:** Concentrated ad spend during peak conversion windows (**11:00 AM – 6:00 PM**), prioritizing Mondays and Fridays.
 * **Scale Treatment Group Parameters:** Expand campaign parameters across wider demographic segments, given the statistically validated 42.5% lift.
 
----
-
-## 📂 Repository Structure
