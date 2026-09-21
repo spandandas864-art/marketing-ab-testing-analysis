@@ -1,13 +1,13 @@
 # Marketing A/B Testing & User Conversion Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![Tableau](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-E97627)](YOUR_TABLEAU_PUBLIC_LINK)
+[![Tableau](https://public.tableau.com/views/MarketingABTestingAnalytics/Executive?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)](YOUR_TABLEAU_PUBLIC_LINK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Executive Summary
 This project delivers an end-to-end statistical analysis of an A/B testing campaign comprising **582,149 user interaction records**. The primary objective is evaluating whether targeted digital ad campaigns generate a statistically significant lift in user conversion rates compared to a Public Service Announcement (PSA) control group, while determining optimal ad frequency caps and peak temporal engagement windows.
 
-- **Interactive Tableau Dashboard:** [View Live Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
+- **Interactive Tableau Dashboard:** [View Live Dashboard](https://public.tableau.com/views/MarketingABTestingAnalytics/Executive?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - **Primary Tech Stack:** Python (Pandas, NumPy, SciPy, Statsmodels, Seaborn, Matplotlib), Jupyter/Google Colab, Tableau Public
 
 ---
