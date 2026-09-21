@@ -1,7 +1,7 @@
 # Marketing A/B Testing & User Conversion Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![Tableau](https://public.tableau.com/views/MarketingABTestingAnalytics/Executive?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)](YOUR_TABLEAU_PUBLIC_LINK)
+[![Tableau]](https://public.tableau.com/views/MarketingABTestingAnalytics/Executive?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Executive Summary
